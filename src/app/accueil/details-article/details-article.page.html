@@ -1,0 +1,17 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Détail de l'Article</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      {{article.titre}}
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{article.contenu}}</p>
+      <p>{{article.auteur}}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
